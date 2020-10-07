@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Retro Games!</title>
+
+    <style>
+
+      body {
+        background-image: url("../res/banner.png"), url("../res/bg.png");
+        background-position: center;
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background-color: #6cf5f5;
+        border-top: 1px solid #C2B8B8;
+        margin-top: 60px;
+      }
+
+      div.transbox {
+        background-color: #6c757d;
+        opacity: 0.6;
+      }
+
+      .bg {
+        background-image: url("res/banner.png");
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .mycol1 { 
+        flex: 0 0 8.333333%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-basis: 8.33333%;
+        max-width: 20%;
+      }
+
+      .myimg1 {
+        width: 450px;
+        height: 150px;
+      }
+
+      .myimg2 {
+        width: 150px;
+        height: 150px;
+      }
+
+      .itemimg {
+        width: 300px;
+        border-radius: 10px;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .smalltext {
+        font-size: 15px;
+        color: #545454;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main role="main">
+      <div class="bg">
+        <div class="container">
+          <div class="row justify-content-between no-gutters">
+            <div class="col-8">
+              <img class="myimg1" src="../res/title.png" alt="title">
+            </div>
+            <div class="mycol1">
+              <img class="myimg2 align-self-right" src="../res/logo.png" alt="logo">
+            </div>
+            <div class="mycol1 align-self-center">
+              <a class="btn btn-primary"href="#">Login/Register</a>
+            </div>
+          </div> <!--row end -->
+          <div class="row justify-content-between no-gutters bg-dark">
+            <div class="col-9">
+              <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="../index.html">Home</a>
+                  <a class="nav-item nav-link" href="profile.html">Profile</a>
+                  <a class="nav-item nav-link active" href="watchlist.html">Watchlist</a>
+                  <a class="nav-item nav-link" href="categories.html">Categories</a>
+                  <a class="nav-item nav-link" href="sell.html">Sell</a>
+                </div>          
+              </nav>
+            </div>
+            <div class="col-3 align-self-center bg-dark px-3">
+              <div class="active-pink-3  active-pink-4">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </div>
+            </div>
+          </div> <!--row end -->
+
+          <div class="row py-4"> <!--row 1 -->
+            <div class="col py-3">
+              <h2 class="text-light">Watchlist</h2>
+              <div class="row">
+                <div class="col-4">
+                  <div class="card bg-info box-shadow h-100">
+                    <a href="itemDetails.html"><img src="../res/item_img1.jpg" class="card-img-top" alt="Image" style="height: 300px; object-fit: scale-down; padding-top: 20px;"></a>
+                    <div class="card-body">
+                      <h3 class="card-title font-weight-bold">Dragon Warrior VII</h3>
+                      <h4 class="card-title">$5.00 <span class="smalltext">20 bids</h4>       
+                      <p class="card-text"><span class="bold">Platform: </span>Playstation</p>
+                      <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                      <p class="card-text"><span class="bold">Condion: </span>Average</p>
+                    </div>
+                    <div class="card-footer text-center">
+                      <a href="itemDetails.html" class="btn btn-primary">Bid</a>
+                      <a href="#" class="btn btn-primary">Remove from Watchlist</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card bg-info box-shadow h-100">
+                    <a href="itemDetails.html"><img src="../res/item_img2.jpg" class="card-img-top" alt="Image" style="height: 300px; object-fit: scale-down; padding-top: 20px;"></a>
+                    <div class="card-body">
+                      <h3 class="card-title font-weight-bold">Dragon Warrior III</h3>
+                      <h4 class="card-title">$5.00 <span class="smalltext">21 bids</h4>       
+                      <p class="card-text"><span class="bold">Platform: </span>Gameboy Colour</p>
+                      <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                      <p class="card-text"><span class="bold">Condion: </span>Average</p>
+                    </div>
+                    <div class="card-footer text-center">
+                      <a href="itemDetails.html" class="btn btn-primary">Bid</a>
+                      <a href="#" class="btn btn-primary">Remove from Watchlist</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card bg-info box-shadow h-100">
+                    <a href="itemDetails.html"><img src="../res/item_img3.jpg" class="card-img-top" alt="Image" style="height: 300px; object-fit: scale-down; padding-top: 20px;"></a>
+                    <div class="card-body">
+                      <h3 class="card-title font-weight-bold">Dragon Warrior I & II</h3>
+                      <h4 class="card-title">$5.00 <span class="smalltext">22 bids</h4>       
+                      <p class="card-text"><span class="bold">Platform: </span>Gameboy Colour</p>
+                      <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                      <p class="card-text"><span class="bold">Condion: </span>Average</p>
+                    </div>
+                    <div class="card-footer text-center">
+                      <a href="itemDetails.html" class="btn btn-primary">Bid</a>
+                      <a href="#" class="btn btn-primary">Remove from Watchlist</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row py-4">
+                <div class="col-4">
+                  <div class="card bg-info box-shadow h-100">
+                    <a href="itemDetails.html"><img src="../res/item_img4.jpg" class="card-img-top" alt="Image" style="height: 300px; object-fit: scale-down; padding-top: 20px;"></a>
+                    <div class="card-body">
+                      <h3 class="card-title font-weight-bold">Dragon Warrior Monsters</h3>
+                      <h4 class="card-title">$5.00 <span class="smalltext">23 bids</h4>       
+                      <p class="card-text"><span class="bold">Platform: </span>Gameboy Colour</p>
+                      <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                      <p class="card-text"><span class="bold">Condion: </span>Average</p>
+                    </div>
+                    <div class="card-footer text-center">
+                      <a href="itemDetails.html" class="btn btn-primary">Bid</a>
+                      <a href="#" class="btn btn-primary">Remove from Watchlist</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card bg-info box-shadow h-100">
+                    <a href="itemDetails.html"><img src="../res/item_img5.jpg" class="card-img-top" alt="Image" style="height: 300px; object-fit: scale-down; padding-top: 20px;"></a>
+                    <div class="card-body">
+                      <h3 class="card-title font-weight-bold">Dragon Quest VI</h3>
+                      <h4 class="card-title">$5.00 <span class="smalltext">24 bids</h4>       
+                      <p class="card-text"><span class="bold">Platform: </span>Nintendo DS</p>
+                      <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                      <p class="card-text"><span class="bold">Condion: </span>Average</p>
+                    </div>
+                    <div class="card-footer text-center">
+                      <a href="itemDetails.html" class="btn btn-primary">Bid</a>
+                      <a href="#" class="btn btn-primary">Remove from Watchlist</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card bg-info box-shadow h-100">
+                    <a href="itemDetails.html"><img src="../res/item_img6.jpg" class="card-img-top" alt="Image" style="height: 300px; object-fit: scale-down; padding-top: 20px;"></a>
+                    <div class="card-body">
+                      <h3 class="card-title font-weight-bold">Dragon Quest IX</h3>
+                      <h4 class="card-title">$5.00 <span class="smalltext">25 bids</h4>       
+                      <p class="card-text"><span class="bold">Platform: </span>Nintendo DS</p>
+                      <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                      <p class="card-text"><span class="bold">Condion: </span>Average</p>
+                    </div>
+                    <div class="card-footer text-center">
+                      <a href="itemDetails.html" class="btn btn-primary">Bid</a>
+                      <a href="#" class="btn btn-primary">Remove from Watchlist</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!--row 1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> <!--container -->
+      </div> <!--bg -->
+    </main> <!--main -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">
+          RetroGames© 2020
+        </span>
+      </div>
+    </footer> <!--footer -->
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

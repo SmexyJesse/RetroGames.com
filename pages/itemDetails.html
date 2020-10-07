@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Retro Games!</title>
+
+    <style>
+
+      body {
+        background-image: url("../res/banner.png"), url("../res/bg.png");
+        background-position: center;
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background-color: #6cf5f5;
+        border-top: 1px solid #C2B8B8;
+        margin-top: 60px;
+      }
+
+      div.transbox {
+        background-color: #6c757d;
+        opacity: 0.6;
+      }
+
+      .bg {
+        background-image: url("res/banner.png");
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .mycol1 { 
+        flex: 0 0 8.333333%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-basis: 8.33333%;
+        max-width: 20%;
+      }
+
+      .myimg1 {
+        width: 450px;
+        height: 150px;
+      }
+
+      .myimg2 {
+        width: 150px;
+        height: 150px;
+      }
+
+      .itemimg {
+        width: 300px;
+        border-radius: 10px;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main role="main">
+      <div class="bg">
+        <div class="container">
+          <div class="row justify-content-between no-gutters">
+            <div class="col-8">
+              <img class="myimg1" src="../res/title.png" alt="title">
+            </div>
+            <div class="mycol1">
+              <img class="myimg2 align-self-right" src="../res/logo.png" alt="logo">
+            </div>
+            <div class="mycol1 align-self-center">
+              <a class="btn btn-primary"href="#">Login/Register</a>
+            </div>
+          </div> <!--row end -->
+          <div class="row justify-content-between no-gutters bg-dark">
+            <div class="col-9">
+              <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="../index.html">Home</a>
+                  <a class="nav-item nav-link" href="profile.html">Profile</a>
+                  <a class="nav-item nav-link" href="watchlist.html">Watchlist</a>
+                  <a class="nav-item nav-link" href="categories.html">Categories</a>
+                  <a class="nav-item nav-link" href="sell.html">Sell</a>
+                </div>          
+              </nav>
+            </div>
+            <div class="col-3 align-self-center bg-dark px-3">
+              <div class="active-pink-3  active-pink-4">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </div>
+            </div>
+          </div> <!--row end -->
+
+          <div class="row py-4"> <!--row 1 -->
+            <div class="col-1">
+              <div class="row"> <!--row pictures -->
+                <div class="col"><img src="../res/example.jpg" alt="Image" style="width: 75px; object-fit: scale-down; padding-top: 3px;"></div>
+                <div class="col"><img src="../res/example.jpg" alt="Image" style="width: 75px; object-fit: scale-down; padding-top: 3px;"></div>
+                <div class="col"><img src="../res/example.jpg" alt="Image" style="width: 75px; object-fit: scale-down; padding-top: 3px;"></div>
+                <div class="col"><img src="../res/example.jpg" alt="Image" style="width: 75px; object-fit: scale-down; padding-top: 3px;"></div>
+                <div class="col"><img src="../res/example.jpg" alt="Image" style="width: 75px; object-fit: scale-down; padding-top: 3px;"></div>
+              </div> <!--row pictures -->
+            </div>
+            <div class="col-11">
+              <div class="row">
+                <div class="col-6"> <!--main picture -->
+                  <img src="../res/item_img2.jpg" alt="Image" style="width: 500px; object-fit: scale-down; padding-top: 3px;">
+                </div> <!--main picture -->
+                <div class="col-6 py-4 bg-info" > <!--info -->
+                  <h3 class="card-title font-weight-bold">Dragon Warrior III</h3>
+                  <h4 class="card-title">$5.00</h4>       
+                  <p class="card-text"><span class="bold">Platform: </span>Gameboy Colour</p>
+                  <p class="card-text"><span class="bold">Genre: </span>Role-playing (JRPG)</p> 
+                  <p class="card-text"><span class="bold">Condion: </span>Used</p>
+                  <p class="card-text">Year: 2001</p>
+                  <p class="card-text">Seller: MrSeller1234</p>
+                  <p class="card-text">Auction Start Date: 1/09/2020</p>
+                  <p class="card-text">Auction End Date: 13/09/2020</p>
+                  <a href="#" class="btn btn-primary">Bid</a>
+                </div> <!--info -->
+              </div>
+            </div>
+          </div> <!--row 1 -->
+          <div class="row pb-6"> <!--description -->
+            <div class="col bg-dark" style="padding-bottom: 70px;">
+              <p class="text-light"><span class="bold">Description: </span>The game starts in the castle town of Aliahan. Like the rest of the Dragon Quest worlds, this castle is set in a medieval time period, complete with knights and magicians. The party explores several caves, ruins, and castles during the adventure. The geography of Dragon Quest III largely corresponds to the actual geography of Earth, and many towns correspond to their real-world cultures, including "Romaly" for Rome, "Portoga" for Portugal, "Assaram" near present-day Iraq (derived from "as-salamu alaykum"), "Jipang" for Japan (where the hero fights Yamata no Orochi) and even a "New Town" in eastern North America that experiences a revolution against an overbearing ruler.</p>
+            </div>
+          </div> <!--description -->
+        </div> <!--container -->
+      </div> <!--bg -->
+    </main> <!--main -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">
+          RetroGames© 2020
+        </span>
+      </div>
+    </footer> <!--footer -->
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
